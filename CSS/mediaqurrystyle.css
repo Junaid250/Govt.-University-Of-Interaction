@@ -1,0 +1,64 @@
+@media(max-width:1000px){
+
+    .course{
+        padding-top: 58px;
+    }
+}
+@media(max-width:720px){
+    body{
+        height: 100vh;
+    }
+
+    nav .fa{
+        display: block;
+        color: rgb(24, 22, 22);
+        font-size: 22px;
+        /* margin-top: 15px; */
+        padding: 20px;
+    }
+    .nav-link ul{
+        padding:20px  0px 0px 20px;
+    }
+    .nav-link ul li{
+        display: block;
+    }
+    .nav-link{
+        position: absolute;
+        background: rgb(190, 109, 55);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+    .brown a{
+        color: #fff !important;
+    
+    }
+    .university{
+        margin-top: 100px;
+    }
+    .text-box h1{
+        /* color: teal; */
+        font-size: 38px;
+    }
+    .text-box p{
+        font-size: 15px;
+        width: 80%;
+    }
+    .course{
+        /* top: 170px; */
+        padding-top: 120px ;
+    }
+    .people, .card, .cards{
+        flex-direction: column;
+    }
+.bef-box div h1{
+    font-size: 18px;
+    }
+.bef-box div a{
+    font-size: 14px;
+    padding: 5px 10px;
+    }
+}
